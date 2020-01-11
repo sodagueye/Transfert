@@ -60,7 +60,7 @@ class UserController extends AbstractController
     {
         $user = $this->getUser();
         return $this->json([
-            'username' => $user->getUsename(),
+            'usename' => $user->getUsename(),
             'roles' => $user->getRoles()
         ]);
     } 
